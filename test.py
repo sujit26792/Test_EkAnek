@@ -24,6 +24,6 @@ if __name__ == "__main__":
     students = [stud_obj1, stud_obj2, stud_obj3, stud_obj4]   # list of objects
     criterias = ["age", 'name'] #list of criterias
     sorted_students = sort_by(students, criterias)
-    for s in sorted_students :print(s.name)
+    #for s in sorted_students :print(s.name)
     print(sorted_students)
 
